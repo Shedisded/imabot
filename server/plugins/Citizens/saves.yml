@@ -1,0 +1,34 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 104
+npc:
+  '104':
+    metadata:
+      cached-skin-uuid: f640b850-a21b-41c7-a8a9-40b5fbd67d2f
+      cached-skin-uuid-name: chicken_jockey
+    name: chicken_jockey
+    uuid: 62ebe25d-993f-4d17-941f-0fa58a2d3b4f
+    traits:
+      skintrait:
+        signature: lbnATRx7Eboy21J7+94bv1tvxZJcMLgooP1tyVtodha3TJuBkpJvokJAo+ZyF+/Pdst9lAsjEVw0k7bd+P4ygMKscciUaOr/3s7PUReClD4u8iyOdWIDW0oK36RzdUGglxyEaBG0571V3RuVC0etfEiz1DxcOzDpTCIfudPA9DrDeUAwjgZ3YM1A0rP8jwwz0Bu9rK2yT+Dxkl9KL388x+b+XsioCjk8Ow+iAJT7dtZJAG+Ya+rJqwENth5BwlPQkl4mcuACAvnwDPmDSV8tuAVdO6OrHR3gLeCottGP8uQMsf1RIi4vtLxJIXsqiYetg8XIM6zAAKDVPLLP1UP9hYGrZ+2Eb7Z7HjLF2uLK5kkYHFYPAtTV7s23Jp8jKt1MiG7umKYstlStEfdJEs5jZqLDYdNyxQjBaD4GFIZARDtAItWSfCj1W++i3lmiiGgq+FlUb1RPlTTgSsKXE3DXeTzd3H+5jzrB5y6RxUaNqYS8VLXQR0Agm61D0TDbTKrnbJNxy9IwYRIRY/UZqPgoA2HVF/H1KZknlfkvi+5BHrbWetMc6xZ/8tL5lk5Q1r9iwMYGEOfginUOLiwcZpzh+po3Vn8w8YOAdGi3aSM51BEKIaRAI67cAvCdTt/4OjYnpRds83pycVH4JltPtPyZoNDqUhv1Q+O6K2SHlhBNiUo=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc2Njk5MTI2MDQ2MSwKICAicHJvZmlsZUlkIiA6ICJmNjQwYjg1MGEyMWI0MWM3YThhOTQwYjVmYmQ2N2QyZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDaGlja2VuX0pvY2tleSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZTZlNjM3M2EyYThhMjU1NmExMmRjNTVkYjkyNDhmZTliNmYxMGJlNzMwYjBjMjBlZDhmZDRmZTEyZmI1YjkxIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      location:
+        bodyYaw: 172.47395
+        world: world
+        x: -5641.3958
+        y: 66.0
+        z: 1715.4847
+        yaw: 172.474
+        pitch: 18.9
+      spawned: true
+      owner:
+        uuid: b03095a3-33ff-3c52-a7a7-104e93b1c3da
+      type: PLAYER
+    traitnames: scoreboardtrait,spawned,owner,skintrait,location,inventory,type,targetable
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
