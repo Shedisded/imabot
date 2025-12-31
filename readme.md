@@ -33,19 +33,19 @@ All plugins are in the **Plugins folder inside SERVER**, not Velocity.<br>
 - **EssentialsXSelectors** – Use selectors like @s in EssentialsX commands<br>
 - **Vault** – Economy<br>
 
-### NPC / World<br>
+### NPC / World
 - **Citizens** – NPCs<br>
 - **Sentinel** – Give NPCs combat traits<br>
 - **Multiverse-Core** – MULTIPLE WORLDS<br>
 - **Multiverse-Portals** – Portals to those worlds<br>
 - **WorldEdit** – Builder’s best friend<br>
-<br>
-### Combat / Abilities<br>
+
+### Combat / Abilities
 - **CrackShot** – “Guns” mojang don’t hurt my family<br>
 - **CustomEnchants** – Some custom enchants<br>
 - **MagicAbilities** – Optional, fun abilities<br>
-<br>
-### Utilities / Spine<br>
+
+### Utilities / Spine
 - **ChatFormatter** – Format chat + colors<br>
 - **LibsDisguises** – Disguise as any entity<br>
 - **ProtocolLib** – Core plugin for others<br>
@@ -55,18 +55,14 @@ All plugins are in the **Plugins folder inside SERVER**, not Velocity.<br>
 - **TuffX** – Allows Tuff Client 1.1+ players to go below Y=0<br>
 - **ViaVersion** – 1.21.5 support<br>
 - **ViaBackwards** – Older clients can join<br>
-<br>
----<br>
-<br>
-# Legal Stuff<br>
+
+# Legal Stuff
 - This is a **REAL server** using **ViaVersion** (allowing older players to join)<br>
 - **Offline mode is OFF** to allow cracked players<br>
 - Eaglercraft 1.8–1.12 **does NOT** contain Minecraft code<br>
-- Made as a project for **lax1dude** to make Minecraft run in a browser<br>
-<br>
----<br>
-<br>
-# Miscellaneous<br>
+- Eaglercraft Was Made as a project BY **lax1dude** to make Minecraft run in a browser<br>
+
+# Miscellaneous
 - **Why are there already more than 1 world?**<br>
   Mainly for testing. You can delete these; they are *NOT needed*.<br>
 - **Why is there already stuff on here?**<br>
@@ -77,9 +73,7 @@ All plugins are in the **Plugins folder inside SERVER**, not Velocity.<br>
   Remove the /<br>
 - **How can I change the server MOTD?**<br>
   Edit listeners.toml lines 70 & 82 (only change server icon if you know what you’re doing!)<br>
-<br>
----<br>
-<br>
+
 # Notes<br>
 This stuff is probably outdated — you can update it yourself if it bothers you.<br>
 I personally will **TRY**, but it’s very unlikely.<br>
