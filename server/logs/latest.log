@@ -1,7 +1,7 @@
-[22:20:18] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.1+8-LTS; Microsoft Microsoft-12574222) on Linux 6.8.0-1030-azure (amd64)
-[22:20:18] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-113-main@ba7fb23 (2025-06-10T23:34:22Z) for Minecraft 1.21.5
-[22:20:19] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[22:20:21] [ServerMain/ERROR]: [PluginRemapper] Encountered exception remapping plugins
+[06:37:33] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.1+8-LTS; Microsoft Microsoft-12574222) on Linux 6.8.0-1030-azure (amd64)
+[06:37:33] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-113-main@ba7fb23 (2025-06-10T23:34:22Z) for Minecraft 1.21.5
+[06:37:34] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[06:37:41] [ServerMain/ERROR]: [PluginRemapper] Encountered exception remapping plugins
 java.util.concurrent.CompletionException: java.lang.RuntimeException: Failed to open plugin jar plugins/worldedit-bukkit-7.3.17.jar
 	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.reportJoin(CompletableFuture.java:457) ~[?:?]
@@ -34,457 +34,317 @@ Caused by: java.util.zip.ZipException: zip END header not found
 	at io.papermc.paper.pluginremap.PluginRemapper.remapPlugin(PluginRemapper.java:270) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
 	at io.papermc.paper.pluginremap.PluginRemapper.rewritePluginDirectory(PluginRemapper.java:208) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
 	... 9 more
-[22:20:23] [ServerMain/INFO]: [PluginInitializerManager] Initialized 22 plugins
-[22:20:23] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (22):
+[06:37:44] [ServerMain/INFO]: [PluginInitializerManager] Initialized 22 plugins
+[06:37:44] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (22):
  - ChatFormatter (1.3.5), Citizens (2.0.38-SNAPSHOT (build 3815)), CrackShot (0.98.13), CustomEnchants (1.0.0), Essentials (2.21.2), EssentialsChat (2.21.2), EssentialsSelectors (2.1.0), LibsDisguises (11.0.9-SNAPSHOT), LuckPerms (5.4.158), MagicAbilities (0.4.5), Multiverse-Core (5.3.4), Multiverse-Portals (5.1.1), ProtocolLib (5.4.1-SNAPSHOT-5773bcb), Sentinel (2.9.2-SNAPSHOT (build 529)), TAB (5.3.2), TuffX (1.1.0), Vault (1.7.3-b131), ViaBackwards (5.3.2), ViaRewind (4.0.7), ViaVersion (5.3.2), WorldEdit (7.3.18-SNAPSHOT+7281-c1bd8e7), packetevents (2.11.0)
-[22:20:36] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:20:41] [ServerMain/INFO]: Loaded 1373 recipes
-[22:20:41] [ServerMain/INFO]: Loaded 1484 advancements
-[22:20:41] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[22:20:41] [Server thread/INFO]: Loading properties
-[22:20:41] [Server thread/INFO]: This server is running Paper version 1.21.5-113-main@ba7fb23 (2025-06-10T23:34:22Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
-[22:20:41] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[22:20:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:20:41] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:20:43] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[22:20:43] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[22:20:44] [Server thread/INFO]: Default game type: SURVIVAL
-[22:20:44] [Server thread/INFO]: Generating keypair
-[22:20:44] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:20:45] [Server thread/INFO]: Using epoll channel type
-[22:20:45] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[22:20:45] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[22:20:46] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loading 5 libraries... please wait
-[22:20:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/ch/ethz/globis/phtree/phtree/2.8.2/phtree-2.8.2.jar
-[22:20:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/org/joml/joml/1.10.8/joml-1.10.8.jar
-[22:20:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/it/unimi/dsi/fastutil/8.5.15/fastutil-8.5.15.jar
-[22:20:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-platform-bukkit/4.4.0/adventure-platform-bukkit-4.4.0.jar
-[22:20:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-platform-api/4.4.0/adventure-platform-api-4.4.0.jar
-[22:20:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-serializer-bungeecord/4.4.0/adventure-text-serializer-bungeecord-4.4.0.jar
-[22:20:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-serializer-legacy/4.21.0/adventure-text-serializer-legacy-4.21.0.jar
-[22:20:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-nbt/4.21.0/adventure-nbt-4.21.0.jar
-[22:20:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[22:20:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[22:20:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/org/jetbrains/annotations/26.0.2/annotations-26.0.2.jar
-[22:20:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-serializer-gson/4.21.0/adventure-text-serializer-gson-4.21.0.jar
-[22:20:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-serializer-json/4.21.0/adventure-text-serializer-json-4.21.0.jar
-[22:20:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/option/1.1.0/option-1.1.0.jar
-[22:20:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar
-[22:20:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar
-[22:20:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-serializer-commons/4.21.0/adventure-text-serializer-commons-4.21.0.jar
-[22:20:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.21.0/adventure-text-serializer-gson-legacy-impl-4.21.0.jar
-[22:20:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-serializer-json-legacy-impl/4.21.0/adventure-text-serializer-json-legacy-impl-4.21.0.jar
-[22:20:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-platform-facet/4.4.0/adventure-platform-facet-4.4.0.jar
-[22:20:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-platform-viaversion/4.4.0/adventure-platform-viaversion-4.4.0.jar
-[22:20:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-minimessage/4.21.0/adventure-text-minimessage-4.21.0.jar
-[22:20:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-api/4.21.0/adventure-api-4.21.0.jar
-[22:20:47] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-key/4.21.0/adventure-key-4.21.0.jar
-[22:20:48] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
-[22:20:48] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
-[22:20:49] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[22:20:50] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[22:20:51] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[22:20:51] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[22:20:53] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[22:20:53] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
-[22:20:53] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.158
-[22:20:54] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.1-SNAPSHOT-5773bcb
-[22:20:54] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.7
-[22:20:54] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[22:20:54] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.0
-[22:20:56] [Server thread/INFO]: [CrackShot] Loading server plugin CrackShot v0.98.13
-[22:20:56] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.38-SNAPSHOT (build 3815)
-[22:20:57] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.3.4
-[22:20:57] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.18-SNAPSHOT+7281-c1bd8e7
-[22:20:57] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4c603cab]
-[22:20:57] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
-[22:20:57] [Server thread/INFO]: [LibsDisguises] Loading server plugin LibsDisguises v11.0.9-SNAPSHOT
-[22:21:00] [Server thread/INFO]: [EssentialsSelectors] Loading server plugin EssentialsSelectors v2.1.0
-[22:21:00] [Server thread/INFO]: [Sentinel] Loading server plugin Sentinel v2.9.2-SNAPSHOT (build 529)
-[22:21:00] [Server thread/INFO]: [ChatFormatter] Loading server plugin ChatFormatter v1.3.5
-[22:21:00] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v5.1.1
-[22:21:00] [Server thread/INFO]: [TuffX] Loading server plugin TuffX v1.1.0
-[22:21:00] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2
-[22:21:00] [Server thread/INFO]: [CustomEnchants] Loading server plugin CustomEnchants v1.0.0
-[22:21:00] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.3.2
-[22:21:00] [Server thread/INFO]: [MagicAbilities] Loading server plugin MagicAbilities v0.4.5
-[22:21:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:21:00] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.158
-[22:21:01] [Server thread/INFO]:         __    
-[22:21:01] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.158
-[22:21:01] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[22:21:01] [Server thread/INFO]: 
-[22:21:01] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[22:21:02] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[22:21:03] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[22:21:03] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[22:21:04] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3565ms)
-[22:21:04] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.1-SNAPSHOT-5773bcb
-[22:21:04] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.7
-[22:21:04] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[22:21:04] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[22:21:04] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[22:21:04] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[22:21:04] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[22:21:04] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.18-SNAPSHOT+7281-c1bd8e7
-[22:21:04] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[22:21:04] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[22:21:05] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_5.PaperweightAdapter as the Bukkit adapter
-[22:21:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:21:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:21:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:21:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:21:09] [Server thread/INFO]: Preparing level "world"
-[22:21:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:21:12] [Server thread/INFO]: Preparing spawn area: 0%
-[22:21:12] [Server thread/INFO]: Preparing spawn area: 0%
-[22:21:13] [Server thread/INFO]: Preparing spawn area: 2%
-[22:21:13] [Server thread/INFO]: Preparing spawn area: 2%
-[22:21:13] [Server thread/INFO]: Preparing spawn area: 2%
-[22:21:14] [Server thread/INFO]: Preparing spawn area: 22%
-[22:21:15] [Server thread/INFO]: Preparing spawn area: 24%
-[22:21:15] [Server thread/INFO]: Preparing spawn area: 24%
-[22:21:15] [Server thread/INFO]: Time elapsed: 3799 ms
-[22:21:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[22:21:15] [Server thread/INFO]: Preparing spawn area: 0%
-[22:21:15] [Server thread/INFO]: Preparing spawn area: 75%
-[22:21:15] [Server thread/INFO]: Time elapsed: 522 ms
-[22:21:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[22:21:15] [Server thread/INFO]: Preparing spawn area: 0%
-[22:21:16] [Server thread/INFO]: Time elapsed: 361 ms
-[22:21:16] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
-[22:21:16] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.5 (770)
-[22:21:16] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
-[22:21:16] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.0
-[22:21:16] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[22:21:16] [Server thread/INFO]: [CrackShot] Enabling CrackShot v0.98.13
-[22:21:16] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.0) | Latest release: (2.11.1)
-[22:21:16] [Server thread/INFO]: [CrackShot] [STDOUT] [CrackShot] Gun-mode activated. Boop!
-[22:21:16] [Server thread/WARN]: Nag author(s): '[Shampaggon]' of 'CrackShot v0.98.13' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[22:21:16] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.38-SNAPSHOT (build 3815)
-[22:21:17] [Server thread/INFO]: [Citizens] Using mojmapped server, avoiding server package checks
-[22:21:17] [Server thread/INFO]: [Citizens] Loaded 0 templates.
-[22:21:17] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
-[22:21:18] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.3.4
-[22:21:19] [Server thread/INFO]: Preparing start region for dimension minecraft:gimu
-[22:21:19] [Server thread/INFO]: Preparing spawn area: 0%
-[22:21:20] [Server thread/INFO]: Time elapsed: 340 ms
-[22:21:20] [Server thread/INFO]: Preparing start region for dimension minecraft:speedrun
-[22:21:20] [Server thread/INFO]: Preparing spawn area: 0%
-[22:21:21] [Server thread/INFO]: Preparing spawn area: 53%
-[22:21:21] [Server thread/INFO]: Time elapsed: 607 ms
-[22:21:21] [Server thread/INFO]: [Multiverse-Core] API service loaded!
-[22:21:21] [Server thread/INFO]: [Multiverse-Core] Version 5.3.4 (API v5.3) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
-[22:21:21] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
-[22:21:22] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
-[22:21:23] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[22:21:23] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsSelectors to the same version.
-[22:21:23] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[22:21:23] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[22:21:23] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[22:21:23] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[22:21:23] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[22:21:23] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[22:21:23] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[22:21:23] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[22:21:23] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[22:21:23] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[22:21:23] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[22:21:23] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[22:21:23] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[22:21:23] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[22:21:23] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[22:21:23] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[22:21:23] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[22:21:23] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[22:21:23] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[22:21:23] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[22:21:23] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[22:21:23] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[22:21:23] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[22:21:23] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[22:21:23] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[22:21:24] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
-[22:21:24] [Server thread/INFO]: [Essentials] Using locale en
-[22:21:25] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[22:21:25] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[22:21:25] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[22:21:25] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[22:21:25] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v11.0.9-SNAPSHOT
-[22:21:26] [Server thread/INFO]: [LibsDisguises] File Name: LibsDisguises.jar
-[22:21:26] [Server thread/INFO]: [LibsDisguises] Discovered nms version: (Package: {Not package relocated}) (LD: v1_21_R4) (MC: 1.21.5)
-[22:21:26] [Server thread/INFO]: [LibsDisguises] Jenkins Build: #1648
-[22:21:26] [Server thread/INFO]: [LibsDisguises] Build Date: 10/10/2025 03:29
-[22:21:26] [Server thread/INFO]: [LibsDisguises] If you own the plugin, place the premium jar downloaded from https://www.spigotmc.org/resources/libs-disguises.32453/ in plugins/LibsDisguises/
-[22:21:26] [Server thread/INFO]: [LibsDisguises] You are running the free version, commands limited to non-players and operators. (Console, Command Blocks, Admins)
-[22:21:26] [Server thread/INFO]: [LibsDisguises] Config 'TallSelfDisguises' is set to 'SCALED', LD will scale down (when possible) oversized disguises from self disguise. https://www.spigotmc.org/wiki/lib-s-disguises-faq/#tall-disguises-self-disguises
-[22:21:28] [Server thread/INFO]: [com.github.retrooper.packetevents.PacketEventsAPI] Loading block mappings for V_1_21_5/18...
-[22:21:28] [Server thread/INFO]: [com.github.retrooper.packetevents.PacketEventsAPI] Finished loading block mappings for V_1_21_5/18 in 712.630206ms
-[22:21:32] [Server thread/INFO]: [LibsDisguises] Config is up to date!
-[22:21:32] [Server thread/INFO]: [EssentialsSelectors] Enabling EssentialsSelectors v2.1.0
-[22:21:32] [Server thread/INFO]: [Sentinel] Enabling Sentinel v2.9.2-SNAPSHOT (build 529)
-[22:21:32] [Server thread/INFO]: [Sentinel] Sentinel loading...
-[22:21:32] [Server thread/INFO]: [Sentinel] Running on java version: 25.0.1
-[22:21:33] [Server thread/INFO]: [Sentinel] Sentinel loaded on a fully supported Minecraft version. If you encounter any issues or need to ask a question, please join our Discord at https://discord.gg/Q6pZGSR and post in the '#sentinel' channel.
-[22:21:33] [Server thread/INFO]: [Sentinel] Vault linked! Group targets will work.
-[22:21:33] [Server thread/INFO]: [Sentinel] Sentinel found CrackShot! Adding support for it!
-[22:21:33] [Server thread/INFO]: [Sentinel] Sentinel loaded!
-[22:21:33] [Server thread/INFO]: [ChatFormatter] Enabling ChatFormatter v1.3.5
-[22:21:33] [Server thread/WARN]: PlaceholderAPI is not installed or not enabled. PlaceholderAPI placeholders will not be available.
-[22:21:34] [Server thread/INFO]: [ChatFormatter] Plugin enabled in 969ms
-[22:21:34] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v5.1.1
-[22:21:35] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
-[22:21:35] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
-[22:21:35] [Server thread/INFO]: [Multiverse-Portals 5.1.1]  Enabled - By Rigby, fernferret and benwoo1110
-[22:21:35] [Server thread/INFO]: [TuffX] Enabling TuffX v1.1.0
-[22:21:35] [Server thread/INFO]: [TuffX] ProtocolLib listener for chunks registered successfully.
-[22:21:35] [Server thread/INFO]: [TuffX] Server Minecraft Version: 1.21.5
-[22:21:35] [Server thread/INFO]: [TuffX] 
-[22:21:35] [Server thread/INFO]: [TuffX] ████████╗██╗   ██╗███████╗ ███████╗ ██╗  ██╗
-[22:21:35] [Server thread/INFO]: [TuffX] ╚══██╔══╝██║   ██║██╔════╝ ██╔════╝ ╚██╗██╔╝
-[22:21:35] [Server thread/INFO]: [TuffX]    ██║   ██║   ██║██████╗  ██████╗   ╚███╔╝ 
-[22:21:35] [Server thread/INFO]: [TuffX]    ██║   ██║   ██║██╔═══╝  ██╔═══╝   ██╔██╗ 
-[22:21:35] [Server thread/INFO]: [TuffX]    ██║   ╚██████╔╝██║      ██║      ██╔╝╚██╗
-[22:21:35] [Server thread/INFO]: [TuffX]    ╚═╝    ╚═════╝ ╚═╝      ╚═╝      ╚═╝  ╚═╝
-[22:21:35] [Server thread/INFO]: [TuffX] 
-[22:21:35] [Server thread/INFO]: [TuffX] Below y0 and TuffX programmed by Potato
-[22:21:35] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2
-[22:21:35] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[22:21:35] [Server thread/INFO]: [CustomEnchants] Enabling CustomEnchants v1.0.0
-[22:21:35] [Server thread/INFO]: [CustomEnchants] CustomEnchants has been enabled!
-[22:21:35] [Server thread/INFO]: [TAB] Enabling TAB v5.3.2
-[22:21:36] [Server thread/INFO]: [TAB] Enabled in 825ms
-[22:21:36] [Server thread/INFO]: [MagicAbilities] Enabling MagicAbilities v0.4.5
-[22:21:37] [Server thread/INFO]: Database is operational
-[22:21:41] [Server thread/INFO]: [spark] Starting background profiler...
-[22:21:44] [Server thread/INFO]: Done preparing level "world" (34.906s)
-[22:21:44] [Server thread/INFO]: Running delayed init tasks
-[22:21:44] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[22:21:44] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
-[22:21:44] [Craft Scheduler Thread - 7 - Vault/INFO]: [Vault] Checking for Updates ... 
-[22:21:44] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[22:21:44] [Craft Scheduler Thread - 7 - Vault/INFO]: [Vault] No new version available
-[22:21:45] [Server thread/INFO]: [Citizens] Loaded 1 NPCs.
-[22:21:45] [Server thread/INFO]: [TuffX] Loading mappings from 1.21.5-mappings.json
-[22:21:49] [Server thread/INFO]: [TuffX] Loaded 27914 legacy mappings.
-[22:21:49] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.7.0, you're on: 5.3.2
-[22:21:49] [Server thread/INFO]: Done (95.184s)! For help, type "help"
-[22:21:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5334ms or 106 ticks behind
-[22:25:45] [User Authenticator #0/INFO]: UUID of player Jmofrfr is a3f2fbbe-76eb-3b82-874f-6b0c5d6c0bf1
-[22:25:45] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
-[22:25:46] [Server thread/INFO]: Jmofrfr joined the game
-[22:25:46] [Server thread/INFO]: Jmofrfr[/127.0.0.1:54930] logged in with entity id 245 at ([world]-119.09089187389758, 67.0, -4.7092305341404606)
-[22:25:47] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[22:25:47] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
-[22:25:47] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
-[22:25:47] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
-[22:25:47] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
-[22:25:47] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[22:25:47] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[22:25:47] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[22:25:47] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[22:25:51] [Server thread/INFO]: [TuffX] [TuffX-Debug] Player Jmofrfr is READY.
-[22:25:59] [Server thread/INFO]: Jmofrfr issued server command: /gmc
-[22:26:07] [Async Chat Thread - #1/INFO]: [Not Secure] <Jmofrfr> ;3
-[22:26:09] [Async Chat Thread - #0/INFO]: [Not Secure] <Jmofrfr> ahem
-[22:26:13] [Server thread/INFO]: Jmofrfr issued server command: /npc creaete
-[22:26:24] [Server thread/INFO]: Jmofrfr issued server command: /npc create blud
-[22:26:35] [Server thread/INFO]: Jmofrfr issued server command: /npc skin set Jmo
-[22:26:39] [Server thread/INFO]: Jmofrfr issued server command: /npc skin  Jmo
-[22:26:42] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Jmo
-[22:26:46] [Server thread/INFO]: Jmofrfr issued server command: /npc skin woowsier
-[22:26:52] [Server thread/INFO]: Jmofrfr issued server command: /npc skin wowser
-[22:26:58] [Server thread/INFO]: Jmofrfr issued server command: /npc skin uwu
-[22:27:04] [Server thread/INFO]: Jmofrfr issued server command: /npc skin hearmeout
-[22:27:14] [Server thread/INFO]: Jmofrfr issued server command: /npc skin pass
-[22:27:23] [Server thread/INFO]: Jmofrfr issued server command: /npc skin --export
-[22:27:27] [Server thread/INFO]: Jmofrfr issued server command: /npc skin -export
-[22:27:34] [Server thread/INFO]: Jmofrfr issued server command: /npc skin pass -export
-[22:27:38] [Server thread/INFO]: Jmofrfr issued server command: /npc skin pass -e
-[22:27:50] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Jmofrfr -b
-[22:28:03] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Shad0wSt0rm -b
-[22:28:09] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Shad0wSt0rm5514 -b
-[22:28:26] [Server thread/INFO]: [Essentials] Created a User for blud (2df2ecae-5dfe-2661-8caf-e1edb4918c79) for non Bukkit type: net.citizensnpcs.nms.v1_21_R4.entity.EntityHumanNPC$PlayerNPC
-[22:28:28] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Shad0wSt0rm5514 -b
-[22:28:29] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Shad0wSt0rm5514 -b
-[22:28:35] [Server thread/INFO]: Jmofrfr issued server command: /npc wander
-[22:28:39] [Server thread/INFO]: Jmofrfr issued server command: /npc wander
-[22:28:43] [Server thread/INFO]: Jmofrfr issued server command: /npc tphere
-[22:28:45] [Server thread/INFO]: Jmofrfr issued server command: /npc tphere
-[22:29:02] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Huzz -b
-[22:29:08] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Jmofrfr -b
-[22:33:47] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Tak0Guy -b
-[22:33:55] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Tak0Guy -b
-[22:33:56] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Tak0Guy -b
-[22:34:11] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Shad0wSt0rm5514 -b
-[22:34:21] [Server thread/INFO]: Jmofrfr issued server command: /npc skin pass -e
-[22:34:36] [Server thread/INFO]: Jmofrfr issued server command: /npc skin .Shad0wSt0rm5514 -b -e
-[22:34:37] [Server thread/INFO]: Jmofrfr issued server command: /npc skin .Shad0wSt0rm5514 -b -e
-[22:34:38] [Server thread/INFO]: Jmofrfr issued server command: /npc skin .Shad0wSt0rm5514 -b -e
-[22:34:38] [Server thread/INFO]: Jmofrfr issued server command: /npc skin .Shad0wSt0rm5514 -b -e
-[22:34:43] [Server thread/INFO]: Jmofrfr issued server command: /npc skin .Shad0wSt0rm5514 -e -b
-[22:34:48] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Shad0wSt0rm5514 -e -b
-[22:36:01] [Server thread/INFO]: Jmofrfr issued server command: /npc follow
-[22:36:06] [Server thread/INFO]: Jmofrfr issued server command: /npc look
-[22:36:07] [Server thread/INFO]: Jmofrfr issued server command: /npc follow
-[22:36:15] [Async Chat Thread - #2/INFO]: [Not Secure] <Jmofrfr> the real jmo
-[22:36:18] [Async Chat Thread - #2/INFO]: [Not Secure] <Jmofrfr> owo
-[22:36:22] [Async Chat Thread - #2/INFO]: [Not Secure] <Jmofrfr> im fakse
-[22:36:24] [Async Chat Thread - #2/INFO]: [Not Secure] <Jmofrfr> :(
-[22:36:31] [Async Chat Thread - #2/INFO]: [Not Secure] <Jmofrfr> (aka bedrock Jmo)
-[22:36:39] [Async Chat Thread - #2/INFO]: [Not Secure] <Jmofrfr> he has no bodys bc
-[22:36:42] [Async Chat Thread - #2/INFO]: [Not Secure] <Jmofrfr> animated
-[22:36:49] [Async Chat Thread - #2/INFO]: [Not Secure] <Jmofrfr> or crown bc
-[22:36:54] [Async Chat Thread - #2/INFO]: [Not Secure] <Jmofrfr> its not appart of the skins
-[22:37:01] [Async Chat Thread - #2/INFO]: [Not Secure] <Jmofrfr> its a model
-[22:37:04] [Async Chat Thread - #2/INFO]: [Not Secure] <Jmofrfr> or smth
-[22:37:14] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Jmofrfr -b
-[22:37:50] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Jmofrfr -b
-[22:37:50] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Jmofrfr -b
-[22:37:51] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Jmofrfr -b
-[22:37:52] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Jmofrfr -b
-[22:37:52] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Jmofrfr -b
-[22:37:53] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Jmofrfr -b
-[22:37:53] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Jmofrfr -b
-[22:37:54] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Jmofrfr -b
-[22:38:02] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Jmofrfr -b -x
-[22:38:03] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Jmofrfr -b -e
-[22:38:20] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Jmofrfr -e
-[22:38:23] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Jmofrfr
-[22:46:21] [Server thread/INFO]: Jmofrfr lost connection: Timed out
-[22:46:21] [Server thread/INFO]: Jmofrfr left the game
-[22:47:04] [User Authenticator #1/INFO]: UUID of player Jmofrfr is a3f2fbbe-76eb-3b82-874f-6b0c5d6c0bf1
-[22:47:04] [Server thread/INFO]: Jmofrfr joined the game
-[22:47:04] [Server thread/INFO]: Jmofrfr[/127.0.0.1:48690] logged in with entity id 2870 at ([world]-110.00164693258436, 64.0, -51.873677329692484)
-[22:47:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[22:47:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
-[22:47:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
-[22:47:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
-[22:47:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
-[22:47:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[22:47:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[22:47:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[22:47:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[22:47:08] [Server thread/INFO]: Jmofrfr issued server command: /gmc
-[22:47:09] [Server thread/INFO]: [TuffX] [TuffX-Debug] Player Jmofrfr is READY.
-[22:47:10] [Server thread/INFO]: Jmofrfr issued server command: /skin list
-[22:47:24] [Server thread/INFO]: Jmofrfr issued server command: /npc list
-[22:47:26] [Server thread/INFO]: Jmofrfr issued server command: /npc remove 2df2ecae-5dfe-4661-8caf-e1edb4918c79
-[22:47:27] [Server thread/INFO]: Jmofrfr issued server command: /npc remove 62ebe25d-993f-4d17-941f-0fa58a2d3b4f
-[22:47:35] [Server thread/INFO]: Jmofrfr issued server command: /npc create Jmofrfr
-[22:48:11] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Jmofrfr file gweenboi.png
-[22:48:15] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Jmofrfr file
-[22:48:17] [Server thread/INFO]: Jmofrfr issued server command: /npc skin file
-[22:48:20] [Server thread/INFO]: Jmofrfr issued server command: /npc skin -file
-[22:48:22] [Server thread/INFO]: Jmofrfr issued server command: /npc skin --file
-[22:48:26] [Server thread/INFO]: Jmofrfr issued server command: /npc skin -s
-[22:48:26] [Server thread/ERROR]: [Citizens] Could not fetch NMS method setProfile: [[org.bukkit.craftbukkit.inventory.CraftMetaSkull.setProfile(com.mojang.authlib.GameProfile).
-[22:48:29] [Server thread/INFO]: [Essentials] Created a User for Jmofrfr (e95b51ac-7685-22cb-b754-302f563882de) for non Bukkit type: net.citizensnpcs.nms.v1_21_R4.entity.EntityHumanNPC$PlayerNPC
-[22:48:47] [Server thread/INFO]: Jmofrfr issued server command: /npc skin --file gweenboi
-[22:48:57] [Server thread/INFO]: Jmofrfr issued server command: /npc skin --file gweenboi.png
-[22:49:33] [Server thread/INFO]: Jmofrfr issued server command: /npc skin --file gweenboi.png
-[22:49:47] [Server thread/INFO]: Jmofrfr issued server command: /npc skin --cap
-[22:49:48] [Server thread/INFO]: Jmofrfr issued server command: /npc skin --cape
-[22:49:59] [Server thread/INFO]: Jmofrfr issued server command: /npc wander
-[22:50:08] [Server thread/INFO]: Jmofrfr issued server command: /npc wander
-[22:50:11] [Server thread/INFO]: Jmofrfr issued server command: /npc tphere
-[22:50:13] [Server thread/INFO]: Jmofrfr issued server command: /npc look
-[22:51:38] [Server thread/INFO]: Jmofrfr lost connection: Timed out
-[22:51:38] [Server thread/INFO]: Jmofrfr left the game
-[22:53:16] [User Authenticator #2/INFO]: UUID of player Jmofrfr is a3f2fbbe-76eb-3b82-874f-6b0c5d6c0bf1
-[22:53:16] [Server thread/INFO]: Jmofrfr joined the game
-[22:53:16] [Server thread/INFO]: Jmofrfr[/127.0.0.1:60202] logged in with entity id 3435 at ([world]-113.1419156538937, 64.0, -48.82457590842899)
-[22:53:16] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[22:53:16] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
-[22:53:16] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
-[22:53:16] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
-[22:53:16] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
-[22:53:16] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[22:53:16] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[22:53:16] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[22:53:16] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[22:53:20] [Server thread/INFO]: Jmofrfr issued server command: /gmc
-[22:53:21] [Server thread/INFO]: [TuffX] [TuffX-Debug] Player Jmofrfr is READY.
-[22:53:35] [Server thread/INFO]: Jmofrfr issued server command: /npc skin
-[22:53:40] [Server thread/INFO]: Jmofrfr issued server command: /npc skin Jmofrfr
-[22:53:47] [Server thread/INFO]: Jmofrfr issued server command: /npc skin file
-[22:53:51] [Server thread/INFO]: Jmofrfr issued server command: /npc skin --file
-[22:53:57] [Server thread/INFO]: Jmofrfr issued server command: /npc skin --file j
-[22:54:04] [Server thread/INFO]: Jmofrfr issued server command: /npc skin --file gweenboi.png
-[22:54:20] [Server thread/INFO]: Jmofrfr issued server command: /npc skin
-[22:55:06] [Server thread/INFO]: Jmofrfr issued server command: /npc create feminine_fellow
-[22:56:06] [Server thread/INFO]: Jmofrfr issued server command: /npc skin --file feminine_fellow.png
-[22:56:12] [Server thread/INFO]: Jmofrfr issued server command: /npc skin --file femininefellow.png
-[22:56:22] [Server thread/INFO]: Jmofrfr issued server command: /npc skin --file femininefellow.png.png
-[22:56:28] [Server thread/INFO]: Jmofrfr issued server command: /npc look
-[22:56:45] [Server thread/INFO]: Jmofrfr issued server command: /npc create Jmo_fr
-[22:56:49] [Server thread/INFO]: Jmofrfr issued server command: /npc look
-[22:57:47] [Server thread/INFO]: Jmofrfr issued server command: /npc skin --file Jmofr.png
-[22:58:10] [Server thread/INFO]: Jmofrfr issued server command: /npc create MrIrishMan_fr
-[22:58:19] [Server thread/INFO]: Jmofrfr issued server command: /npc create Gimu_fr
-[22:58:33] [Server thread/INFO]: Jmofrfr issued server command: /npc list
-[22:58:36] [Server thread/INFO]: Jmofrfr issued server command: /npc remove fd8da5d2-24eb-4932-878c-544ebb9fa3b4
-[22:58:37] [Server thread/INFO]: Jmofrfr issued server command: /npc remove 88e122f8-4c79-4c71-811b-5e9ae41792d3
-[22:58:44] [Server thread/INFO]: Jmofrfr issued server command: /npc create MrIrishMan_fr
-[22:58:48] [Server thread/INFO]: Jmofrfr issued server command: /npc create Gimu_fr
-[22:58:57] [Server thread/INFO]: Jmofrfr issued server command: /npc look
-[22:59:10] [Server thread/INFO]: Jmofrfr issued server command: /npc select MrIrishMan_fr
-[22:59:12] [Server thread/INFO]: Jmofrfr issued server command: /npc look
-[22:59:49] [Server thread/INFO]: Jmofrfr issued server command: /npc skin --file femirish.png
-[23:00:01] [Server thread/INFO]: Jmofrfr issued server command: /npc skin --file femIrish.png
-[23:00:13] [Server thread/INFO]: Jmofrfr issued server command: /npc select Gimu_fr
-[23:00:57] [Server thread/INFO]: Jmofrfr lost connection: Timed out
-[23:00:57] [Server thread/INFO]: Jmofrfr left the game
-[23:01:30] [User Authenticator #3/INFO]: UUID of player Jmofrfr is a3f2fbbe-76eb-3b82-874f-6b0c5d6c0bf1
-[23:01:30] [Server thread/INFO]: Jmofrfr joined the game
-[23:01:30] [Server thread/INFO]: Jmofrfr[/127.0.0.1:59372] logged in with entity id 4405 at ([world]-112.41907103249018, 66.0455769315089, -46.248448690525414)
-[23:01:31] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[23:01:31] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
-[23:01:31] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
-[23:01:31] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
-[23:01:31] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
-[23:01:31] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[23:01:31] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[23:01:31] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[23:01:31] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[23:01:36] [Server thread/INFO]: [TuffX] [TuffX-Debug] Player Jmofrfr is READY.
-[23:01:36] [Server thread/INFO]: Jmofrfr issued server command: /gmc
-[23:01:43] [Server thread/INFO]: Jmofrfr issued server command: /npc list
-[23:01:53] [Server thread/INFO]: Jmofrfr issued server command: /npc select Jmo_fr --r
-[23:01:55] [Server thread/INFO]: Jmofrfr issued server command: /npc select Jmo_fr
-[23:01:58] [Server thread/INFO]: Jmofrfr issued server command: /npc tphere
-[23:02:08] [Server thread/INFO]: Jmofrfr issued server command: /npc create Grum
-[23:02:18] [Server thread/INFO]: Jmofrfr issued server command: /npc skin
-[23:02:28] [Server thread/INFO]: Jmofrfr issued server command: /npc skin --file Grum.png
-[23:02:32] [Server thread/INFO]: Jmofrfr issued server command: /npc skin --file grum.png
-[23:02:38] [Server thread/INFO]: Jmofrfr issued server command: /npc follow
-[23:02:41] [Server thread/INFO]: Jmofrfr issued server command: /npc follow
-[23:02:48] [Server thread/INFO]: Jmofrfr issued server command: /npc tphere
-[23:02:51] [Server thread/INFO]: Jmofrfr issued server command: /npc look
-[23:03:10] [Server thread/INFO]: Jmofrfr issued server command: /npc create GcsMulti
-[23:03:15] [Server thread/INFO]: Jmofrfr issued server command: /npc look
-[23:03:46] [Server thread/INFO]: Jmofrfr issued server command: /npc list
-[23:03:49] [Server thread/INFO]: Jmofrfr issued server command: /npc remove dcef6b5d-8c98-4a87-a0a5-ed07c0b0e10f
-[23:04:31] [Server thread/INFO]: Jmofrfr issued server command: /npc select gimu_fr
-[23:05:15] [Server thread/INFO]: Jmofrfr lost connection: Timed out
-[23:05:15] [Server thread/INFO]: Jmofrfr left the game
-[23:05:31] [User Authenticator #4/INFO]: UUID of player Jmofrfr is a3f2fbbe-76eb-3b82-874f-6b0c5d6c0bf1
-[23:05:31] [Server thread/INFO]: Jmofrfr joined the game
-[23:05:31] [Server thread/INFO]: Jmofrfr[/127.0.0.1:49048] logged in with entity id 4935 at ([world]-112.75166085992133, 65.25450984519316, -47.005838177798836)
-[23:05:31] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[23:05:31] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
-[23:05:31] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
-[23:05:31] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
-[23:05:31] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
-[23:05:31] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[23:05:31] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[23:05:31] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[23:05:31] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[23:05:36] [Server thread/INFO]: [TuffX] [TuffX-Debug] Player Jmofrfr is READY.
-[23:05:36] [Server thread/INFO]: Jmofrfr issued server command: /gmc
-[23:05:48] [Server thread/INFO]: Jmofrfr issued server command: /npc select gimu_fr
-[23:05:51] [Server thread/INFO]: Jmofrfr issued server command: /npc skin
-[23:05:53] [Server thread/INFO]: Jmofrfr issued server command: /npc skin s
-[23:06:11] [Server thread/INFO]: Jmofrfr issued server command: /npc skin --file gimu.png
-[23:08:28] [Server thread/INFO]: Jmofrfr lost connection: Timed out
-[23:08:28] [Server thread/INFO]: Jmofrfr left the game
+[06:37:52] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:37:56] [ServerMain/INFO]: Loaded 1373 recipes
+[06:37:56] [ServerMain/INFO]: Loaded 1484 advancements
+[06:37:57] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[06:37:57] [Server thread/INFO]: Loading properties
+[06:37:57] [Server thread/INFO]: This server is running Paper version 1.21.5-113-main@ba7fb23 (2025-06-10T23:34:22Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
+[06:37:57] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[06:37:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[06:37:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:37:59] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[06:37:59] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[06:38:00] [Server thread/INFO]: Default game type: SURVIVAL
+[06:38:00] [Server thread/INFO]: Generating keypair
+[06:38:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:38:00] [Server thread/INFO]: Using epoll channel type
+[06:38:00] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[06:38:00] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[06:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loading 5 libraries... please wait
+[06:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/ch/ethz/globis/phtree/phtree/2.8.2/phtree-2.8.2.jar
+[06:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/org/joml/joml/1.10.8/joml-1.10.8.jar
+[06:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/it/unimi/dsi/fastutil/8.5.15/fastutil-8.5.15.jar
+[06:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-platform-bukkit/4.4.0/adventure-platform-bukkit-4.4.0.jar
+[06:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-platform-api/4.4.0/adventure-platform-api-4.4.0.jar
+[06:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-serializer-bungeecord/4.4.0/adventure-text-serializer-bungeecord-4.4.0.jar
+[06:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-serializer-legacy/4.21.0/adventure-text-serializer-legacy-4.21.0.jar
+[06:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-nbt/4.21.0/adventure-nbt-4.21.0.jar
+[06:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[06:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[06:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/org/jetbrains/annotations/26.0.2/annotations-26.0.2.jar
+[06:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-serializer-gson/4.21.0/adventure-text-serializer-gson-4.21.0.jar
+[06:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-serializer-json/4.21.0/adventure-text-serializer-json-4.21.0.jar
+[06:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/option/1.1.0/option-1.1.0.jar
+[06:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar
+[06:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar
+[06:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-serializer-commons/4.21.0/adventure-text-serializer-commons-4.21.0.jar
+[06:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.21.0/adventure-text-serializer-gson-legacy-impl-4.21.0.jar
+[06:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-serializer-json-legacy-impl/4.21.0/adventure-text-serializer-json-legacy-impl-4.21.0.jar
+[06:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-platform-facet/4.4.0/adventure-platform-facet-4.4.0.jar
+[06:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-platform-viaversion/4.4.0/adventure-platform-viaversion-4.4.0.jar
+[06:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-minimessage/4.21.0/adventure-text-minimessage-4.21.0.jar
+[06:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-api/4.21.0/adventure-api-4.21.0.jar
+[06:38:01] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-key/4.21.0/adventure-key-4.21.0.jar
+[06:38:02] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[06:38:02] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[06:38:03] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[06:38:03] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[06:38:04] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[06:38:04] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[06:38:05] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[06:38:05] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
+[06:38:05] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.158
+[06:38:06] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.1-SNAPSHOT-5773bcb
+[06:38:06] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.7
+[06:38:06] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[06:38:06] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.0
+[06:38:08] [Server thread/INFO]: [CrackShot] Loading server plugin CrackShot v0.98.13
+[06:38:08] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.38-SNAPSHOT (build 3815)
+[06:38:08] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.3.4
+[06:38:08] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.18-SNAPSHOT+7281-c1bd8e7
+[06:38:08] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4349bdb3]
+[06:38:09] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
+[06:38:09] [Server thread/INFO]: [LibsDisguises] Loading server plugin LibsDisguises v11.0.9-SNAPSHOT
+[06:38:11] [Server thread/INFO]: [EssentialsSelectors] Loading server plugin EssentialsSelectors v2.1.0
+[06:38:11] [Server thread/INFO]: [Sentinel] Loading server plugin Sentinel v2.9.2-SNAPSHOT (build 529)
+[06:38:11] [Server thread/INFO]: [ChatFormatter] Loading server plugin ChatFormatter v1.3.5
+[06:38:11] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v5.1.1
+[06:38:11] [Server thread/INFO]: [TuffX] Loading server plugin TuffX v1.1.0
+[06:38:11] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2
+[06:38:11] [Server thread/INFO]: [CustomEnchants] Loading server plugin CustomEnchants v1.0.0
+[06:38:11] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.3.2
+[06:38:11] [Server thread/INFO]: [MagicAbilities] Loading server plugin MagicAbilities v0.4.5
+[06:38:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:38:11] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.158
+[06:38:12] [Server thread/INFO]:         __    
+[06:38:12] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.158
+[06:38:12] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[06:38:12] [Server thread/INFO]: 
+[06:38:12] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[06:38:12] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[06:38:13] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[06:38:13] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[06:38:13] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2427ms)
+[06:38:13] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.1-SNAPSHOT-5773bcb
+[06:38:14] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.7
+[06:38:14] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[06:38:14] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[06:38:14] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[06:38:14] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[06:38:14] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[06:38:14] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.18-SNAPSHOT+7281-c1bd8e7
+[06:38:14] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[06:38:14] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[06:38:14] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_5.PaperweightAdapter as the Bukkit adapter
+[06:38:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:38:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:38:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:38:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:38:17] [Server thread/INFO]: Preparing level "world"
+[06:38:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:38:20] [Server thread/INFO]: Preparing spawn area: 0%
+[06:38:21] [Server thread/INFO]: Preparing spawn area: 0%
+[06:38:21] [Server thread/INFO]: Preparing spawn area: 0%
+[06:38:21] [Server thread/INFO]: Preparing spawn area: 0%
+[06:38:21] [Server thread/INFO]: Time elapsed: 1751 ms
+[06:38:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[06:38:21] [Server thread/INFO]: Preparing spawn area: 0%
+[06:38:22] [Server thread/INFO]: Time elapsed: 417 ms
+[06:38:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[06:38:22] [Server thread/INFO]: Preparing spawn area: 0%
+[06:38:22] [Server thread/INFO]: Preparing spawn area: 36%
+[06:38:22] [Server thread/INFO]: Time elapsed: 672 ms
+[06:38:22] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[06:38:22] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.5 (770)
+[06:38:22] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[06:38:22] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.0
+[06:38:22] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[06:38:22] [Server thread/INFO]: [CrackShot] Enabling CrackShot v0.98.13
+[06:38:23] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.0) | Latest release: (2.11.1)
+[06:38:23] [Server thread/INFO]: [CrackShot] [STDOUT] [CrackShot] Gun-mode activated. Boop!
+[06:38:23] [Server thread/WARN]: Nag author(s): '[Shampaggon]' of 'CrackShot v0.98.13' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[06:38:23] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.38-SNAPSHOT (build 3815)
+[06:38:23] [Server thread/INFO]: [Citizens] Using mojmapped server, avoiding server package checks
+[06:38:23] [Server thread/INFO]: [Citizens] Loaded 0 templates.
+[06:38:24] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[06:38:24] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.3.4
+[06:38:25] [Server thread/INFO]: Preparing start region for dimension minecraft:gimu
+[06:38:26] [Server thread/INFO]: Preparing spawn area: 0%
+[06:38:26] [Server thread/INFO]: Preparing spawn area: 14%
+[06:38:26] [Server thread/INFO]: Time elapsed: 772 ms
+[06:38:26] [Server thread/INFO]: Preparing start region for dimension minecraft:speedrun
+[06:38:26] [Server thread/INFO]: Preparing spawn area: 0%
+[06:38:27] [Server thread/INFO]: Preparing spawn area: 34%
+[06:38:27] [Server thread/INFO]: Time elapsed: 725 ms
+[06:38:28] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[06:38:28] [Server thread/INFO]: [Multiverse-Core] Version 5.3.4 (API v5.3) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[06:38:28] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[06:38:28] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[06:38:29] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[06:38:29] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsSelectors to the same version.
+[06:38:29] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[06:38:29] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[06:38:29] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[06:38:29] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[06:38:29] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[06:38:29] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[06:38:29] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[06:38:29] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[06:38:29] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[06:38:29] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[06:38:29] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[06:38:29] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[06:38:29] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[06:38:29] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[06:38:29] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[06:38:29] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[06:38:29] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[06:38:29] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[06:38:29] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[06:38:29] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[06:38:29] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[06:38:29] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[06:38:29] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[06:38:29] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[06:38:29] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[06:38:30] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[06:38:30] [Server thread/INFO]: [Essentials] Using locale en
+[06:38:30] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[06:38:31] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[06:38:31] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[06:38:31] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[06:38:31] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v11.0.9-SNAPSHOT
+[06:38:31] [Server thread/INFO]: [LibsDisguises] File Name: LibsDisguises.jar
+[06:38:31] [Server thread/INFO]: [LibsDisguises] Discovered nms version: (Package: {Not package relocated}) (LD: v1_21_R4) (MC: 1.21.5)
+[06:38:31] [Server thread/INFO]: [LibsDisguises] Jenkins Build: #1648
+[06:38:31] [Server thread/INFO]: [LibsDisguises] Build Date: 10/10/2025 03:29
+[06:38:31] [Server thread/INFO]: [LibsDisguises] If you own the plugin, place the premium jar downloaded from https://www.spigotmc.org/resources/libs-disguises.32453/ in plugins/LibsDisguises/
+[06:38:31] [Server thread/INFO]: [LibsDisguises] You are running the free version, commands limited to non-players and operators. (Console, Command Blocks, Admins)
+[06:38:31] [Server thread/INFO]: [LibsDisguises] Config 'TallSelfDisguises' is set to 'SCALED', LD will scale down (when possible) oversized disguises from self disguise. https://www.spigotmc.org/wiki/lib-s-disguises-faq/#tall-disguises-self-disguises
+[06:38:31] [Server thread/INFO]: [com.github.retrooper.packetevents.PacketEventsAPI] Loading block mappings for V_1_21_5/18...
+[06:38:32] [Server thread/INFO]: [com.github.retrooper.packetevents.PacketEventsAPI] Finished loading block mappings for V_1_21_5/18 in 646.261903ms
+[06:38:34] [Server thread/INFO]: [LibsDisguises] Config is up to date!
+[06:38:34] [Server thread/INFO]: [EssentialsSelectors] Enabling EssentialsSelectors v2.1.0
+[06:38:34] [Server thread/INFO]: [Sentinel] Enabling Sentinel v2.9.2-SNAPSHOT (build 529)
+[06:38:34] [Server thread/INFO]: [Sentinel] Sentinel loading...
+[06:38:34] [Server thread/INFO]: [Sentinel] Running on java version: 25.0.1
+[06:38:34] [Server thread/INFO]: [Sentinel] Sentinel loaded on a fully supported Minecraft version. If you encounter any issues or need to ask a question, please join our Discord at https://discord.gg/Q6pZGSR and post in the '#sentinel' channel.
+[06:38:35] [Server thread/INFO]: [Sentinel] Vault linked! Group targets will work.
+[06:38:35] [Server thread/INFO]: [Sentinel] Sentinel found CrackShot! Adding support for it!
+[06:38:35] [Server thread/INFO]: [Sentinel] Sentinel loaded!
+[06:38:35] [Server thread/INFO]: [ChatFormatter] Enabling ChatFormatter v1.3.5
+[06:38:35] [Server thread/WARN]: PlaceholderAPI is not installed or not enabled. PlaceholderAPI placeholders will not be available.
+[06:38:35] [Server thread/INFO]: [ChatFormatter] Plugin enabled in 695ms
+[06:38:35] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v5.1.1
+[06:38:36] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
+[06:38:36] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
+[06:38:36] [Server thread/INFO]: [Multiverse-Portals 5.1.1]  Enabled - By Rigby, fernferret and benwoo1110
+[06:38:36] [Server thread/INFO]: [TuffX] Enabling TuffX v1.1.0
+[06:38:36] [Server thread/INFO]: [TuffX] ProtocolLib listener for chunks registered successfully.
+[06:38:36] [Server thread/INFO]: [TuffX] Server Minecraft Version: 1.21.5
+[06:38:36] [Server thread/INFO]: [TuffX] 
+[06:38:36] [Server thread/INFO]: [TuffX] ████████╗██╗   ██╗███████╗ ███████╗ ██╗  ██╗
+[06:38:36] [Server thread/INFO]: [TuffX] ╚══██╔══╝██║   ██║██╔════╝ ██╔════╝ ╚██╗██╔╝
+[06:38:36] [Server thread/INFO]: [TuffX]    ██║   ██║   ██║██████╗  ██████╗   ╚███╔╝ 
+[06:38:36] [Server thread/INFO]: [TuffX]    ██║   ██║   ██║██╔═══╝  ██╔═══╝   ██╔██╗ 
+[06:38:36] [Server thread/INFO]: [TuffX]    ██║   ╚██████╔╝██║      ██║      ██╔╝╚██╗
+[06:38:36] [Server thread/INFO]: [TuffX]    ╚═╝    ╚═════╝ ╚═╝      ╚═╝      ╚═╝  ╚═╝
+[06:38:36] [Server thread/INFO]: [TuffX] 
+[06:38:36] [Server thread/INFO]: [TuffX] Below y0 and TuffX programmed by Potato
+[06:38:36] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2
+[06:38:36] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[06:38:36] [Server thread/INFO]: [CustomEnchants] Enabling CustomEnchants v1.0.0
+[06:38:36] [Server thread/INFO]: [CustomEnchants] CustomEnchants has been enabled!
+[06:38:36] [Server thread/INFO]: [TAB] Enabling TAB v5.3.2
+[06:38:37] [Server thread/INFO]: [TAB] Enabled in 511ms
+[06:38:37] [Server thread/INFO]: [MagicAbilities] Enabling MagicAbilities v0.4.5
+[06:38:37] [Server thread/INFO]: Database is operational
+[06:38:38] [Server thread/INFO]: [spark] Starting background profiler...
+[06:38:40] [Server thread/INFO]: Done preparing level "world" (22.715s)
+[06:38:40] [Server thread/INFO]: Running delayed init tasks
+[06:38:40] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
+[06:38:40] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[06:38:40] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[06:38:41] [Server thread/INFO]: [Citizens] Loaded 6 NPCs.
+[06:38:41] [Server thread/INFO]: [TuffX] Loading mappings from 1.21.5-mappings.json
+[06:38:42] [Server thread/INFO]: [TuffX] Loaded 27914 legacy mappings.
+[06:38:42] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.7.0, you're on: 5.3.2
+[06:38:42] [Server thread/INFO]: Done (71.807s)! For help, type "help"
+[06:38:42] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] Checking for Updates ... 
+[06:38:42] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] No new version available
+[07:06:19] [Server thread/INFO]: [Not Secure] [Server] wow
+[07:34:00] [Server thread/INFO]: Stopping the server
+[07:34:00] [Server thread/INFO]: Stopping server
+[07:34:00] [Server thread/INFO]: [MagicAbilities] Disabling MagicAbilities v0.4.5
+[07:34:00] [Server thread/INFO]: [TAB] Disabling TAB v5.3.2
+[07:34:00] [Server thread/INFO]: [TAB] Disabled in 0ms
+[07:34:00] [Server thread/INFO]: [CustomEnchants] Disabling CustomEnchants v1.0.0
+[07:34:00] [Server thread/INFO]: [CustomEnchants] CustomEnchants has been disabled!
+[07:34:00] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.2
+[07:34:00] [Server thread/INFO]: [TuffX] Disabling TuffX v1.1.0
+[07:34:00] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v5.1.1
+[07:34:00] [Server thread/INFO]: [ChatFormatter] Disabling ChatFormatter v1.3.5
+[07:34:00] [Server thread/INFO]: [Sentinel] Disabling Sentinel v2.9.2-SNAPSHOT (build 529)
+[07:34:00] [Server thread/INFO]: [Sentinel] Sentinel unloading...
+[07:34:00] [Server thread/INFO]: [Sentinel] Sentinel unloaded!
+[07:34:00] [Server thread/INFO]: [EssentialsSelectors] Disabling EssentialsSelectors v2.1.0
+[07:34:00] [Server thread/INFO]: [LibsDisguises] Disabling LibsDisguises v11.0.9-SNAPSHOT
+[07:34:00] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2
+[07:34:00] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[07:34:00] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.18-SNAPSHOT+7281-c1bd8e7
+[07:34:00] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[07:34:00] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.3.4
+[07:34:00] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.38-SNAPSHOT (build 3815)
+[07:34:00] [Server thread/INFO]: [CrackShot] Disabling CrackShot v0.98.13
+[07:34:00] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.0
+[07:34:00] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[07:34:00] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.7
+[07:34:00] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.1-SNAPSHOT-5773bcb
+[07:34:00] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.158
+[07:34:00] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[07:34:00] [Server thread/INFO]: [LuckPerms] Closing storage...
+[07:34:00] [Server thread/INFO]: [LuckPerms] Goodbye!
+[07:34:00] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
+[07:34:00] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[07:34:00] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[07:34:00] [Server thread/INFO]: Saving players
+[07:34:00] [Server thread/INFO]: Saving worlds
+[07:34:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 21 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[07:34:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[07:34:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 27 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[07:34:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[gimu]'/minecraft:gimu
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'gimu'
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'gimu'
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'gimu'
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'gimu' in 0.00s
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'gimu'
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'gimu'
+[07:34:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[speedrun]'/minecraft:speedrun
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'speedrun'
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'speedrun'
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'speedrun'
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 7 entity chunks, 0 poi chunks in world 'speedrun' in 0.01s
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'speedrun'
+[07:34:00] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'speedrun'
+[07:34:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:34:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:34:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:34:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (gimu): All chunks are saved
+[07:34:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (speedrun): All chunks are saved
+[07:34:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:34:00] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[07:34:00] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[07:34:00] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[07:34:00] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
