@@ -3,6 +3,10 @@
 this is just a template for people who dont know how to start their own server.<br>
 this is **NOT** a fresh server.<br>
 
+### ***THIS IS NOT MADE BY ME!!!!***
+- it was made by wadwadwad and atypicalpotato *(On Youtube!)*
+- this is just a fork for again, people who dont know how to start their server, and more.
+
 # Link / IP<br>
 https://symmetrical-waddle-g4jpqwr56q66cpwj9-25567.app.github.dev/<br>
 OR<br>
@@ -12,8 +16,9 @@ wss://symmetrical-waddle-g4jpqwr56cpwj9-25567.app.github.dev/<br>
 If not then just ignore this.<br>
 
 # How to Start<br>
-This repo was created by *Jmo_fr* (aka Jmofrfr) as a template for the server **"Void-SMP"**.<br>
-<br>
+This repo was created *as a fork* by *Jmo_fr* (aka Jmofrfr) as a template for the server **"Void-SMP"**.<br>
+(see more at *"This was not created by me!!!"*)
+
 ### Steps:<br>
 1. Run the command:<br>
    `bash startup.sh` <br>
