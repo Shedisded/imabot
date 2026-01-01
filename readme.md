@@ -1,3 +1,8 @@
+# What This Is
+- This is a copy of Jmo's "`Void -- SMP`" for ALL to use **See more at `Legal Stuff`*
+this is just a template for people who dont know how to start their own server.<br>
+this is **NOT** a fresh server.<br>
+
 # Link / IP<br>
 https://symmetrical-waddle-g4jpqwr56q66cpwj9-25567.app.github.dev/<br>
 OR<br>
@@ -56,6 +61,7 @@ All plugins are in the **Plugins folder inside SERVER**, not Velocity.<br>
 - **ViaBackwards** – Older clients can join<br>
 
 # Legal Stuff
+- This is free-range fellas, do whatever you want with this just give credit to ***"Jmo_fr"***.
 - This is a **REAL server** using **ViaVersion** (allowing older players to join)<br>
 - **Online mode is OFF** to allow cracked players<br>
 - Eaglercraft 1.8–1.12 **does NOT** contain Minecraft code<br>
