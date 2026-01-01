@@ -62,6 +62,7 @@ All plugins are in the **Plugins folder inside SERVER**, not Velocity.<br>
 
 # Legal Stuff
 - This is free-range fellas, do whatever you want with this just give credit to ***"Jmo_fr"***.
+  **[The Unlicense License]** :O<br>
 - This is a **REAL server** using **ViaVersion** (allowing older players to join)<br>
 - **Online mode is OFF** to allow cracked players<br>
 - Eaglercraft 1.8–1.12 **does NOT** contain Minecraft code<br>
