@@ -1,5 +1,5 @@
 # What This Is
-- This is a copy of Jmo's "`Void -- SMP`" for ALL to use **See more at `Legal Stuff`*
+- This is a copy of Jmo's "`Void -- SMP`" for ALL to use **See more at `Legal Stuff`*<br>
 this is just a template for people who dont know how to start their own server.<br>
 this is **NOT** a fresh server.<br>
 
